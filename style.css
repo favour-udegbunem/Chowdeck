@@ -1,0 +1,791 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+.header__container{
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 40px 20%;
+    background-color: none;
+    border-bottom: 1px solid #dadada;
+    z-index: 1000;
+}
+
+.header__container img{
+    width: 5%;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: -2.4%;
+    margin-left: -17%;
+}
+
+.header__container-ad{
+    position: relative;
+}
+
+.header__container-ad img{
+    width: 3%;
+    position: absolute;
+    margin-left: -15%;
+    margin-top: -12px;
+}
+
+.header__container-ad h1{
+    font-size: 15px;
+    position: absolute;
+    margin-top: -9px;
+    margin-left: -90px;
+}
+
+.header__container {
+    position: relative;
+}
+
+.header__container input{
+    background-color: #ededed;
+    width: 25%;
+    margin-left: 37%;
+    height: 7vh;
+    margin-top: -20px;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+}
+
+::placeholder{
+    padding-left: 45px;
+}
+
+.header__content img{
+    width: 25px;
+    margin-left: 38%;
+    margin-top: -9px;
+}
+
+.header__content-1{
+    position: absolute;
+    background-color: #0D4D3D;
+    width: 4.5%;
+    height: 9vh;
+    border-radius: 90px;
+    margin-left: 65%;
+    margin-top: -30px;
+}
+
+.header__content-1 img{
+    width: 35px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+.header__content-2{
+    position: absolute;
+    background-color: #0D4D3D;
+    width: 4.5%;
+    height: 9vh;
+    border-radius: 90px;
+    margin-left: 71%;
+    margin-top: -30px;
+}
+
+.header__content-2 img{
+    width: 35px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+/* Aside Section */
+
+aside{
+    position: sticky;
+    overflow-y: auto;
+}
+
+.aside__container{
+    position: relative;
+    width: 32%;
+    height: 100vh;
+    margin-left: 67%;
+    border-left: 1px solid #dadada;
+}
+
+.aside__container hr{
+    position: absolute;
+    width: 89%;
+    margin-top: 9%;
+    margin-left: 25px;
+}
+
+.aside-btn{
+    position: absolute;
+    background-color: #E7F6F1;
+    margin-top: 16%;
+    margin-left: 6%;
+    height: 10vh;
+    width: 90%;
+    border: none;
+    border-radius: 2px;
+}
+
+.aside-btn h1{
+    font-size: 20px;
+    margin-left: -13%;
+    font-weight: 500;
+}
+
+#h-close{
+    position: absolute;
+    width: 89%;
+    margin-top: 38%;
+    margin-left: 25px;
+}
+
+.aside__content{
+    position: relative;
+}
+
+.aside__content h1{
+    font-size: 17px;
+    margin-top: 45%;
+    margin-left: 25px;
+    font-weight: lighter;
+}
+
+.aside__content p{
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -3%;
+    text-decoration: line-through;
+}
+
+.aside__content #sp-1{
+    text-decoration: none;
+    margin-left: 83%;
+    margin-top: -3%;
+    position: absolute;
+}
+
+.aside__content-2{
+    position: relative;
+}
+
+.aside__content-2 h1{
+    font-size: 17px;
+    margin-top: 7%;
+    margin-left: 25px;
+    font-weight: lighter;
+}
+
+.aside__content-2 p{
+    position: absolute;
+    margin-left: 86%;
+    margin-top: -3%;
+    text-decoration: line-through;
+}
+
+.aside__content-2 #sp-2{
+    position: absolute;
+    text-decoration: none;
+    margin-left: 89%;
+    margin-top: -3%;
+}
+
+.aside__content-3{
+    position: relative;
+}
+
+.aside__content-3 h1{
+    font-size: 17px;
+    margin-top: 7%;
+    margin-left: 25px;
+    font-weight: lighter;
+}
+
+.aside__content-3 p{
+    position: absolute;
+    margin-left: 86%;
+    margin-top: -3%;
+    text-decoration: line-through;
+}
+
+.aside__content-3 #sp-3{
+    text-decoration: none;
+    margin-left: 89%;
+    margin-top: -3%;
+    position: absolute;
+}
+
+.aside__content-4{
+    position: relative;
+}
+
+.aside__content-4 h1{
+    font-size: 17px;
+    margin-top: 7%;
+    margin-left: 25px;
+    font-weight: lighter;
+}
+
+.aside__content-4 p{
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -3%;
+    text-decoration: line-through;
+}
+
+.aside__content-4 #sp-4{
+    text-decoration: none;
+    margin-left: 83%;
+    margin-top: -3%;
+    position: absolute;
+}
+
+.odd{
+    position: relative;
+}
+
+.odd button{
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 15%;
+    position: absolute;
+    height: 8vh;
+    color: #fff;
+    background-color: #0C513F;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.odd-1{
+    position: relative;
+}
+
+.odd-1 button{
+    width: 70%;
+    margin-top: 25%;
+    margin-left: 15%;
+    position: absolute;
+    height: 8vh;
+    color: #000;
+    background-color: #FDEfEc;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.odd-2{
+    position: relative;
+}
+
+.odd-2 button{
+    width: 70%;
+    margin-top: 40%;
+    margin-left: 15%;
+    position: absolute;
+    height: 8vh;
+    color: #000;
+    background-color: #ededed;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Aside Closing Section */
+
+.main__container{
+    position: relative;
+}
+
+.small-screen{
+    display: none;
+}
+
+.main__container img{
+    position: absolute;
+    width: 3%;
+    margin-top: -50%;
+    margin-left: 30px;
+}
+
+.main__container h1{
+    position: absolute;
+    width: 3%;
+    margin-top: -49.6%;
+    font-size: 21px;
+    margin-left: 100px;
+}
+
+.main_container-1{
+    position: absolute;
+}
+
+.main__container-1 img{
+    width: 60%;
+    margin-top: -45%;
+    border-radius: 20px;
+    height: 42vh;
+}
+
+.main__container-1 h1{
+    position: absolute;
+    margin-top: -22%;
+    font-size: 25px;
+    margin-left: 29px;
+}
+
+.main__container-1 p{
+    position: absolute;
+    margin-top: -21.5%;
+    margin-left: 285px;
+    font-weight: bold;
+}
+
+.main__container-2{
+    position: absolute;
+    width: 20%;
+    height: 8vh;
+    border-radius: 8px;
+    margin-top: -23%;
+    margin-left: 41.8%;
+    border: 1px solid;
+    background-color: #E7F6F1;
+}
+
+.fave-btn{
+    position: absolute;
+    width: 43%;
+    height: 6vh;
+    margin-top: 7px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    background-color: #00AD70;
+}
+
+.btn-box{
+    position: absolute;
+    width: 43%;
+    height: 6vh;
+    margin-top: 7px;
+    margin-left: 140px;
+    border-radius: 8px;
+    border: none;
+    color: black;
+    background-color: transparent;
+}
+
+.main__container-2 p{
+    color: #00AD70;
+    font-size: 15px;
+    margin-top: 40%;
+    margin-left: -200%;
+    position: absolute;
+}
+
+.main__container-2 span{
+    position: absolute;
+    color: #00AD70;
+    font-size: 15px;
+    margin-top: 40%;
+    margin-left: -170%;
+    font-weight: bold;
+}
+
+.main__container-2 hr{
+    width: 310%;
+    margin-left: -200%;
+    margin-top: 60%;
+}
+
+.main__content{
+    position: relative;
+}
+
+.main__content h1{
+    position: absolute;
+    font-size: 20px;
+    width: 10%;
+    margin-top: -9%;
+    margin-left: 2%;
+}
+
+.main__content p{
+    font-size: 15px;
+    position: absolute;
+    color: #8f8f8f;
+    margin-left: 28px;
+    margin-top: -87px;
+    /* width: 150%; */
+}
+
+.main__content span{
+    margin-left: 50%;
+    margin-top: -8%;
+    position: absolute;
+    width: 10%;
+}
+
+.main__content #span-1{
+    position: absolute;
+    margin-left: 4%;
+    width: 30%;
+    margin-top: -1px;
+    text-decoration: line-through;
+}
+
+.main__content h3{
+    position: absolute;
+    width: 10%;
+    font-size: 17px;
+    font-weight: lighter;
+    margin-left: 97px;
+    margin-top: -15%;
+}
+
+.last{
+    position: relative;
+}
+
+.last button{
+    position: absolute;
+    width: 10%;
+    background-color: #E7F6F1;
+    color: #00AD70;
+    margin-left: 30px;
+    height: 7vh;
+    border: none;
+    border-radius: 10px;
+    margin-top: -2%;
+    font-size: 15px;
+}
+
+.last-1{
+    position: relative;
+}
+
+.last-1 button{
+    width: 10%;
+    background-color: transparent;
+    color: black;
+    margin-left: 190px;
+    height: 7vh;
+    margin-top: -47px;
+    position: absolute;
+    position: absolute;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: -2%;
+    font-size: 15px;
+}
+
+
+#myBtn{
+    border: none;
+    background-color: #fff;
+    margin-left: -80px;
+    margin-top: -5px;
+    position: absolute;
+}
+
+#myBtn select{
+    border: none;
+    position: absolute;
+    background-color: transparent;
+    margin-left: 5px;
+    margin-top: -1px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    opacity: 1000%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    margin: auto;
+    border-radius: 20px;
+    padding: 0;
+    border: 1px solid #888;
+    background-color: #00AD70;
+    opacity: 1000%;
+    width: 40%;
+    height: 60vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.68),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    opacity: 100%;
+    color: white;
+    font-size: 15px;
+    height: 6vh;
+    padding-top: 10px;
+  }
+
+  .modal-header #input{
+    background-color: #ededed;
+    margin-left: 2%;
+    height: 7vh;
+    width: 65%;
+    margin-top: 40px;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    padding-left: 15px; 
+}
+
+#input::placeholder{
+    padding-left: 15px;
+}
+
+.modal-header #input-1{
+    background-color: #ededed;
+    margin-left: 2%;
+    height: 7vh;
+    width: 65%;
+    margin-top: 120px;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+#input-1::placeholder{
+    padding-left: 15px;
+}
+  
+  .modal-body {padding: 2px 16px;}
+  
+  .modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+
+.mainone__content-1{
+    position: relative;
+}
+
+.mainone__content-1 button{
+    width: 30%;
+    height: 20vh;
+    margin-left: 34%;
+    margin-top: 5%;
+    border: 1px solid #dadada;
+    position: absolute;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.mainone__content-1 img{
+    margin-left: 62.5%;
+    margin-top: -16.3%;
+    position: sticky;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 19.7vh;
+    width: 37%;
+}
+
+.mainone__content-1 h1{
+    margin-left: -71%;
+    padding-top: 10px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.mainone__content-1 p{
+    margin-left: -78%;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.mainone__content-1 h2{
+    margin-left: -70%;
+    position: absolute;
+    padding-top: 16px;
+    margin-top: 10px;
+    margin-left: 6%;
+}
+
+.mainone__content-side{
+    position: relative;
+}
+
+.mainone__content-side button{
+    width: 30%;
+    height: 20vh;
+    margin-left: 2%;
+    margin-top: 5%;
+    position: absolute;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.mainone__content-side img{
+    margin-left: 63%;
+    margin-top: -16%;
+    position: sticky;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 19.5vh;
+}
+
+.mainone__content-side h1{
+    margin-left: -55%;
+    padding-top: 10px;
+}
+
+.mainone__content-side p{
+    margin-left: -78%;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.mainone__content-side h2{
+    margin-left: -70%;
+    position: absolute;
+    padding-top: 16px;
+    margin-top: 10px;
+    margin-left: 6%;
+}
+
+.maintwo__content-side-1{
+    position: relative;
+}
+
+.maintwo__content-side-1 button{
+    width: 30%;
+    height: 20vh;
+    margin-left: 2%;
+    margin-top: 18%;
+    position: absolute;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.maintwo__content-side-1 img{
+    margin-left: 63%;
+    margin-top: -16%;
+    position: sticky;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 19.5vh;
+}
+
+.maintwo__content-side-1 h1{
+    margin-left: -61%;
+    padding-top: 10px;
+}
+
+.maintwo__content-side-1 p{
+    margin-left: -78%;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.maintwo__content-side-1 h2{
+    margin-left: -70%;
+    position: absolute;
+    padding-top: 16px;
+    margin-top: 10px;
+    margin-left: 6%;
+}
+
+.maintwo__content-1{
+    position: relative;
+}
+
+.maintwo__content-1 button{
+    width: 30%;
+    height: 20vh;
+    margin-left: 34%;
+    margin-top: 18%;
+    border: 1px solid #dadada;
+    position: absolute;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.maintwo__content-1 img{
+    margin-left: 62.5%;
+    margin-top: -16.3%;
+    position: sticky;
+    width: 37%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 19.8vh;
+}
+
+.maintwo__content-1 h1{
+    margin-left: -52%;
+    padding-top: 10px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.maintwo__content-1 p{
+    margin-left: -78%;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.maintwo__content-1 h2{
+    margin-left: -70%;
+    position: absolute;
+    padding-top: 16px;
+    margin-top: 10px;
+    margin-left: 6%;
+}
